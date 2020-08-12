@@ -1,0 +1,45 @@
+body{
+    background-color: bisque;
+}
+#header-nav{
+    background-color: #7abaff;
+
+}
+
+h1{
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+h2{
+    margin: 30px;
+}
+
+#home-tiles .col-xs-12{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #8fd19e;
+    margin: 20px 0;
+}
+
+button.navbar-toggler{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    visibility: hidden;
+}
+
+ul#nav-list  li{
+    border: black 1px solid;
+}
+
+@media (max-width: 768px) {
+    button.navbar-toggler{
+        visibility: visible;
+    }
+}
+
+
+
